@@ -2,7 +2,7 @@
 ## DOCKER
 
 #Before launching docker-machine
-export VIRTUALBOX_SHARE_FOLDER="$PWD:$PWD"
+# export VIRTUALBOX_SHARE_FOLDER="$PWD:$PWD"
 # Create virtual machine (for mac)
 docker-machine create --driver virtualbox matcha
 # Start virtual machine if not running (for mac)
