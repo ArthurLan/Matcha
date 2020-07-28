@@ -8,12 +8,13 @@ const instance = axios.create({
 
 const createRandomUser = () => {
     const email = faker.internet.email();
+    const password = faker.internet.password();
     const firstname = faker.name.firstName();
     const lastname = faker.name.lastName()
     const gender = ['female', 'male'][Math.floor(Math.random() * ['female', 'male'].length)];
     const bio = faker.lorem.sentence();
 
-    return { email, firstname, lastname, gender, bio }
+    return { email, password, firstname, lastname, gender, bio }
 
 };
 

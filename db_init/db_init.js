@@ -3,8 +3,8 @@ const { createTableUser, createTableInterest, createTableBlock, createTableMatch
 
 
 // createDb('matcha');
-// dropTable('user');
-// createTableUser();
+dropTable('user');
+createTableUser();
 // createTableInterest();
 // createTableBlock();
 // createTableMatch();
