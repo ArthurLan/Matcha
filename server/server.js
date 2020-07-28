@@ -11,7 +11,6 @@ app.use(express.json({ extend: false }));
 const PORT = process.env.PORT || 5000;
 
 
-
 // simple route
 app.get("/", (req, res) => {
     res.json({ message: "Welcome to matcha-server." });

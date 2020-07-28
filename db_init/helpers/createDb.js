@@ -1,6 +1,6 @@
 // const sql = require('../../config/db.js');
 
-const sql = require("../../models/db");
+const sql = require("../db.js");
 
 function createDb(dbName) {
     console.log(`Creating Db with name ${dbName}...`);
